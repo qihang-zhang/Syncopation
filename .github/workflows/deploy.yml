@@ -38,12 +38,3 @@ jobs:
       - name: release the blog
         run: |
           uv run bash ./fused_mkdocs/mkdocs_publish.sh
-
-      # - name: Clean up temporary logic directory
-      #   if: always() 
-      #   run: |
-      #     uv run bash ./fused_mkdocs/maintain_config/remove_config.sh
-      #     rm -rf ./fused_mkdocs
-      #     git add .
-      #     git commit -m "clean up temporary logic directory"
-      #     git push
