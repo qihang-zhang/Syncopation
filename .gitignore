@@ -10,3 +10,4 @@ fused_mkdocs/
 uv.lock
 pyproject.toml
 .obsidian/
+references/
