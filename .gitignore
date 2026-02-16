@@ -11,3 +11,5 @@ uv.lock
 pyproject.toml
 .obsidian/
 references/
+*.pyc
+__pycache__/
