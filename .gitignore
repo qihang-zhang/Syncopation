@@ -8,8 +8,15 @@ docs/Slides/
 fused_mkdocs/
 .python-version
 uv.lock
-pyproject.toml
 .obsidian/
 references/
 *.pyc
 __pycache__/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+*.yaml
+!pydantic_yaml_manager/examples/*.yaml
